@@ -1,0 +1,87 @@
+*, body, html {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #40A2D8;
+    width: 100vw;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 15%;
+
+}
+
+.endGame {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 375px;
+}
+
+button {
+    width: 200px;
+    color: aliceblue;
+    background-color: #40A2D8;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: #000;
+}
+
+td:hover {
+    background-color: #0b60b0;
+}
+
+.announ {
+    color: #0c1a39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pengum {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.konten {
+    display: flex;
+    flex-direction: column;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 15px;
+}
+
